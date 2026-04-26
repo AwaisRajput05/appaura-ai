@@ -1,0 +1,165 @@
+
+
+
+.analytics-menu .ant-menu-submenu-title {
+  padding: 0.625rem 0.75rem;
+  border-radius: 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #566a96;
+  height: auto;
+  line-height: normal;
+}
+
+.analytics-menu .ant-menu-item {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-size: 0.8125rem;
+  color: #566a96;
+  margin: 2px 0;
+  height: auto;
+  line-height: normal;
+  padding-left: 1rem !important;
+}
+
+/* Active state */
+.analytics-menu .ant-menu-item-selected {
+  color: white !important;
+  background: linear-gradient(to right, #566a96, #3069FE) !important;
+  box-shadow: 0 0 0 1px rgba(48, 105, 254, 0.2) !important;
+}
+
+.analytics-menu .ant-menu-submenu-selected > .ant-menu-submenu-title {
+  color: white !important;
+  background: linear-gradient(to right, #566a96, #3069FE) !important;
+  box-shadow: 0 0 0 1px rgba(48, 105, 254, 0.2) !important;
+}
+
+/* Hover states */
+.analytics-menu .ant-menu-item:hover,
+.analytics-menu .ant-menu-submenu-title:hover {
+  color: #3069FE !important;
+  background-color: rgba(86, 106, 150, 0.1) !important;
+}
+
+/* Remove default ant-design styles */
+.analytics-menu .ant-menu-item::after,
+.analytics-menu .ant-menu-submenu::after {
+  display: none !important;
+}
+
+/* Icons */
+.menu-icon {
+  margin-right: 0.75rem;
+  height: 1.25rem;
+  width: 1.25rem;
+}
+
+/* Submenu */
+.analytics-menu .ant-menu-sub {
+  background: transparent;
+  padding-left: 1.5rem;
+}
+
+/* Submenu arrow */
+.analytics-menu .ant-menu-submenu-arrow {
+  color: #566a96;
+  transition: transform 0.2s ease;
+}
+
+.analytics-menu .ant-menu-submenu-open > .ant-menu-submenu-title > .ant-menu-submenu-arrow {
+  transform: rotate(-90deg) !important;
+  color: #3069FE;
+}
+
+.analytics-menu .ant-menu-submenu-title:hover .ant-menu-submenu-arrow {
+  color: #3069FE;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .analytics-menu {
+    width: 100%;
+  }
+}
+
+/* Add these to your existing globals.css */
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideIn {
+  from { 
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to { 
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  10%, 30%, 50%, 70%, 90% { transform: translateX(-5px); }
+  20%, 40%, 60%, 80% { transform: translateX(5px); }
+}
+
+@keyframes scaleUp {
+  from { 
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to { 
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes progress {
+  from { width: 0%; }
+  to { width: 100%; }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.6s ease-out;
+}
+
+.animate-slideIn {
+  animation: slideIn 0.5s ease-out;
+}
+
+.animate-shake {
+  animation: shake 0.5s ease-in-out;
+}
+
+.animate-scaleUp {
+  animation: scaleUp 0.4s ease-out;
+}
+
+.animate-progress {
+  animation: progress 3s ease-in-out;
+}
+
+
+/* table */
+
+
+.table-row{
+   background-color: #566a96;
+   color: #1E293B;
+}
+.table-heading {
+  background: linear-gradient(to right, #566a96, #3069FE);
+  color: white;
+}
+
+.table-border{
+  border: 1px solid #1E293B;
+}
+
+.bg-gradient-primary {
+  background: linear-gradient(to right, #566a96, #3069FE);
+}

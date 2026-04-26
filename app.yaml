@@ -1,0 +1,11 @@
+service: ai-frontend
+runtime: nodejs24
+
+handlers:
+  - url: /(.*\..+)
+    static_files: dist/\1
+    upload: dist/(.*\..+)
+
+  - url: /.*
+    static_files: dist/index.html
+    upload: dist/index.html

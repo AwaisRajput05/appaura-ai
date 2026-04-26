@@ -1,0 +1,9 @@
+Medicine Name,Form Type,Unit Type,Strength/Size,Manufacturer,Batch Code,Retail Price (PKR),Sale Price (PKR),Location,Expiry Date,Number of Packs,Strips Per Pack,Tablets Per Strip,Number of Bottles,Tablets per Bottle,Number of Boxes,Units per Box,Age Restriction,Prescription Required
+Panadol,Tablet,Tablet / Capsule (Strip Based),500mg,GSK,BATCH2025A,100,120,Aisle 1 Shelf A,31/12/2026,5,10,10,,, ,,18,No
+Centrum Silver,Tablet,Tablet / Capsule (Bottle Based),Multivitamin,Haleon,BATCH2026B,500,550,Aisle 2 Shelf B,01/06/2027,,, ,3,30, , ,50,No
+Muconyl Expectorant,Syrup,Liquid (Syrup / Drops),60ml,Not Specified,BATCH2025C,150,180,Aisle 3 Shelf C,15/03/2026,,,,10,, , ,0,No
+Voren Injection,Injection,Injection / IV (Box Based),75mg/3ml,Not Specified,BATCH2026D,200,250,Aisle 4 Shelf D,30/09/2027,,,, , ,2,5,18,Yes
+Fusiderm Cream,Cream,Cream / Ointment / Gel,15g,Not Specified,BATCH2025E,300,350,Aisle 5 Shelf E,20/12/2026,,,, , ,4, ,0,No
+Foster Inhaler,Inhaler,Devices / Inhalers / Sprays,100mcg/6mcg,Chiesi,BATCH2026F,800,900,Aisle 6 Shelf F,10/05/2027,,,, , ,1, ,18,Yes
+Fertigest Suppositories,Suppository,Patches Suppositories Pessaries Medicated Plasters,400mg,Not Specified,BATCH2025G,400,450,Aisle 7 Shelf G,05/11/2026,,,, , ,2,10,18,Yes
+Myteka Powder Sachet,Powder,Powders & Sachet Products,4mg,Hilton Pharma,BATCH2026H,500,550,Aisle 8 Shelf H,25/08/2027,,,, , ,3,14,0,Yes

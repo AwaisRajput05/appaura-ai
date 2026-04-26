@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+@import "tailwindcss";
+
+:root {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  font-synthesis: none;
+  background-color: white;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  /* Custom color variables */
+  --color-primary: #495e83;
+  --color-secondary: #1d1c1c;
+}
+
+/* FIX FOR DOUBLE SCROLLBARS */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* THIS FIXES IT - removes browser scrollbar */
+  height: 100%;
+  width: 100%;
+}
+
+#root {
+  height: 100vh;
+  overflow-y: auto; /* ONLY ONE scrollbar here */
+  overflow-x: hidden;
+  background: #F6F9FC;
+}
+
+/* Base styles */
+body {
+  font-family: "Inter", sans-serif;
+  color: #1e293b;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* fonts smoothing */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "liga" on;
+  -moz-font-feature-settings: "liga" on;
+}
+
+/* Change the white to any color */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+/*Change text in autofill textbox*/
+input:-webkit-autofill{
+    -webkit-text-fill-color: black !important;
+}
+
+/* Scrollbar - this styles the ONE scrollbar we have */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 12px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, rgba(86, 106, 150, 0.5), rgba(48, 105, 254, 0.5));
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #779bea; 
+}
+
+/* Sidebar Menu Custom Styles */
+.ant-menu.analytics-menu {
+  background: transparent;
+  border-right: none;
+}
