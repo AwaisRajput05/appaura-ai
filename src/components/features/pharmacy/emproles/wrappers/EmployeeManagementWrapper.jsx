@@ -64,7 +64,7 @@ const EmployeeManagementDropdown = ({ selectedType, onTypeChange }) => {
           {SelectedIcon && <SelectedIcon className={`w-5 h-5 flex-shrink-0 ${selectedOption?.color}`} />}
           <span className="font-medium text-gray-700 truncate">{selectedOption?.label}</span>
         </div>
-        <ChevronDown className={`w-4 h-4 text-gray-500 transition-transform flex-shrink-0 ${isOpen ? 'rotate-180' : ''}`} />
+        <ChevronDown className={`w-5 h-4 text-gray-500 transition-transform flex-shrink-0 ${isOpen ? 'rotate-180' : ''}`} />
       </button>
 
       {isOpen && (
