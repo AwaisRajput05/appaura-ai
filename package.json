@@ -18,6 +18,7 @@
     "@hookform/resolvers": "^5.1.1",
     "@tailwindcss/vite": "^4.1.11",
     "@tanstack/react-table": "^8.21.3",
+    "@vapi-ai/web": "^2.5.2",
     "antd": "^5.27.0",
     "apexcharts": "^4.7.0",
     "axios": "^1.13.2",
@@ -51,12 +52,14 @@
     "recharts": "^3.3.0",
     "tailwindcss": "^4.1.11",
     "use-debounce": "^10.0.5",
+    "uuid": "^14.0.0",
     "yup": "^1.6.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.29.0",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
+    "@types/uuid": "^10.0.0",
     "@vitejs/plugin-react": "^4.5.2",
     "eslint": "^9.29.0",
     "eslint-plugin-react-hooks": "^5.2.0",

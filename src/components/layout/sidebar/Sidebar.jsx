@@ -188,6 +188,8 @@ const organizationType = user?.organizationType || localStorage.getItem("organiz
                                     path: "/admin-vendors/payments/payhistory",
                                     tooltip: "View past payment records and statuses",
                                 },
+
+                                 
                             ],
                         },
                     ],
@@ -303,6 +305,8 @@ const organizationType = user?.organizationType || localStorage.getItem("organiz
                                 path: "/admin/partner-management",
                                 tooltip: "Add and manage partner companies"
                             },
+
+                            
                            
                         
                 
@@ -524,6 +528,12 @@ const organizationType = user?.organizationType || localStorage.getItem("organiz
                                             tooltip: "Manage employee roles and permissions"
                                         }]
                                         : []),
+                                          {
+                                    name: "Chat Now",
+                                    icon: <FaHistory className="mr-2 h-5 w-5" />,
+                                    path: "/admin-vendors/payments/chat",
+                                    tooltip: "View past payment records and statuses",
+                                },
                                         
 
                                     // MANAGE_SUPPLIER permission

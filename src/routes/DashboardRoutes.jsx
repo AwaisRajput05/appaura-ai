@@ -10,6 +10,10 @@ import { useAuth } from "../components/auth/hooks/useAuth";
 import Dashboard from "../pages/dashboard/Dashboard";
 import PartnerManagementWrapper from "../pages/admin/wrappers/PartnerManagementWrapper";
 import HomePage from "../pages/HomePage";
+import Chat from "../components/features/pharmacy/chat/call/chat"
+
+
+
 import PermissionManagement from "../pages/admin/permroles";
 import PaymentWrapper from "../components/features/pharmacy/payments/wrappers/paymentwrapper";
 import InventoryReportWrapper from "../components/features/pharmacy/inventory/wrappers/InventoryReportsWrapper";
@@ -337,9 +341,10 @@ export default function DashboardRoutes() {
             <Route path="webhooks" element={<SetupWebhook />} />
           </Route>
           <Route path="payments">
-            <Route path="payment" element={<PaymentWrapper/>} />
-           <Route path="pharmaroles" element={<EmployeeManagementWrapper/>} />
-          </Route>
+  <Route path="payment" element={<PaymentWrapper/>} />
+  <Route path="chat" element={<Chat/>} />
+  <Route path="pharmaroles" element={<EmployeeManagementWrapper/>} />
+</Route>
           <Route path="settings">
             
             <Route path="settingwrapper" element={<SettingsWrapper />} />
